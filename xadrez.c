@@ -21,7 +21,7 @@ int main() {
         i++; // Incrementa o contador
     }
     
-    // Movimentação da Rainha: 8 casas para a esquerda usando
+    // Movimentação da Rainha: 8 casas para a esquerda
     printf("\n=== Movimentacao da Rainha ===\n");
     i = 0; // Reinicia o contador
     do {
