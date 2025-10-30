@@ -7,13 +7,13 @@
 int main() {
     int i = 0;
     
-    // Movimentação da Torre: 5 casas para a direita usando FOR
+    // Movimentação da Torre: 5 casas para a direita
     printf("=== Movimentacao da Torre ===\n");
     for (i = 0; i < 5; i++) {
         printf("Direita\n"); // Imprime a direção do movimento
     }
     
-    // Movimentação do Bispo: 5 casas na diagonal (cima e direita) usando WHILE
+    // Movimentação do Bispo: 5 casas na diagonal (cima e direita)
     printf("\n=== Movimentacao do Bispo ===\n");
     i = 0; // Reinicia o contador
     while (i < 5) {
@@ -21,7 +21,7 @@ int main() {
         i++; // Incrementa o contador
     }
     
-    // Movimentação da Rainha: 8 casas para a esquerda usando DO-WHILE
+    // Movimentação da Rainha: 8 casas para a esquerda usando
     printf("\n=== Movimentacao da Rainha ===\n");
     i = 0; // Reinicia o contador
     do {
